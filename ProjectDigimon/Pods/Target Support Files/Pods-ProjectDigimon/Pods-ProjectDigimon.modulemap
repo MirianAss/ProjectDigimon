@@ -1,0 +1,6 @@
+framework module Pods_ProjectDigimon {
+  umbrella header "Pods-ProjectDigimon-umbrella.h"
+
+  export *
+  module * { export * }
+}
