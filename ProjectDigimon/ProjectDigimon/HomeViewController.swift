@@ -8,11 +8,11 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     @IBAction func btStart(_ sender: Any) {
         if let screen = self.storyboard?.instantiateViewController(withIdentifier: "navigation") {
             screen.modalTransitionStyle = .flipHorizontal
