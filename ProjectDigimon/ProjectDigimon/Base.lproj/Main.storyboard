@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="718" y="-2"/>
         </scene>
-        <!--View Controller-->
+        <!--List Digimon View Controller-->
         <scene sceneID="WEU-Lv-UFa">
             <objects>
-                <viewController id="Fe6-nJ-rc3" sceneMemberID="viewController">
+                <viewController id="Fe6-nJ-rc3" customClass="ListDigimonViewController" customModule="ProjectDigimon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n5c-r6-Bsb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,6 +76,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WS2-bB-fby"/>
+                    <connections>
+                        <outlet property="tableView" destination="866-TI-zDv" id="PlS-10-f57"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r52-t2-bsZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
