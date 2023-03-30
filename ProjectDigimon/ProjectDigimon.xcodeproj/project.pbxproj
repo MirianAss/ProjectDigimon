@@ -13,6 +13,7 @@
 		3A78F97C29D5124E00C02C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F97A29D5124E00C02C43 /* Main.storyboard */; };
 		3A78F97E29D5125000C02C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F97D29D5125000C02C43 /* Assets.xcassets */; };
 		3A78F98129D5125000C02C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F97F29D5125000C02C43 /* LaunchScreen.storyboard */; };
+		3A78F98929D5135400C02C43 /* Digimon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F98829D5135400C02C43 /* Digimon.swift */; };
 		A54C4FB026BF0617C47A4C47 /* Pods_ProjectDigimon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7EB14C230EE7639C4043A /* Pods_ProjectDigimon.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		3A78F97D29D5125000C02C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A78F98029D5125000C02C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A78F98229D5125000C02C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A78F98829D5135400C02C43 /* Digimon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digimon.swift; sourceTree = "<group>"; };
 		76A18DE202FC0617267C35E7 /* Pods-ProjectDigimon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectDigimon.debug.xcconfig"; path = "Target Support Files/Pods-ProjectDigimon/Pods-ProjectDigimon.debug.xcconfig"; sourceTree = "<group>"; };
 		BC433D50AB0AD1700A39FEA6 /* Pods-ProjectDigimon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectDigimon.release.xcconfig"; path = "Target Support Files/Pods-ProjectDigimon/Pods-ProjectDigimon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				76A18DE202FC0617267C35E7 /* Pods-ProjectDigimon.debug.xcconfig */,
 				BC433D50AB0AD1700A39FEA6 /* Pods-ProjectDigimon.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,6 +78,7 @@
 				3A78F97629D5124E00C02C43 /* SceneDelegate.swift */,
 				3A78F97829D5124E00C02C43 /* ViewController.swift */,
 				3A78F97A29D5124E00C02C43 /* Main.storyboard */,
+				3A78F98829D5135400C02C43 /* Digimon.swift */,
 				3A78F97D29D5125000C02C43 /* Assets.xcassets */,
 				3A78F97F29D5125000C02C43 /* LaunchScreen.storyboard */,
 				3A78F98229D5125000C02C43 /* Info.plist */,
@@ -210,6 +212,7 @@
 				3A78F97929D5124E00C02C43 /* ViewController.swift in Sources */,
 				3A78F97529D5124E00C02C43 /* AppDelegate.swift in Sources */,
 				3A78F97729D5124E00C02C43 /* SceneDelegate.swift in Sources */,
+				3A78F98929D5135400C02C43 /* Digimon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
