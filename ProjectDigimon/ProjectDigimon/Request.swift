@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 
 protocol RequestDelegate: NSObject {
-    func finishDelegate(arrayDeDigimon: Digimon?)
+    func finishProtocol(arrayDeDigimon: Digimon?)
 }
 
 class Request: NSObject {
@@ -23,7 +23,7 @@ class Request: NSObject {
             
             self.arrayDigimon = digimon
             completion(digimon)
-            self.delegate?.finishDelegate(arrayDeDigimon: digimon)
+            self.delegate?.finishProtocol(arrayDeDigimon: digimon)
         }
     }
 }

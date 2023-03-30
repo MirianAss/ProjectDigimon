@@ -16,6 +16,9 @@
 		3A78F98929D5135400C02C43 /* Digimon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F98829D5135400C02C43 /* Digimon.swift */; };
 		3A78F98B29D5162900C02C43 /* ListDigimonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F98A29D5162900C02C43 /* ListDigimonViewController.swift */; };
 		3A78F98D29D516D600C02C43 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F98C29D516D600C02C43 /* Request.swift */; };
+		3A78F99029D51A4F00C02C43 /* DigimonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F98E29D51A4F00C02C43 /* DigimonTableViewCell.swift */; };
+		3A78F99129D51A5000C02C43 /* DigimonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F98F29D51A4F00C02C43 /* DigimonTableViewCell.xib */; };
+		3A78F99329D51F0600C02C43 /* LevelDigimonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F99229D51F0600C02C43 /* LevelDigimonViewController.swift */; };
 		A54C4FB026BF0617C47A4C47 /* Pods_ProjectDigimon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7EB14C230EE7639C4043A /* Pods_ProjectDigimon.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		3A78F98829D5135400C02C43 /* Digimon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digimon.swift; sourceTree = "<group>"; };
 		3A78F98A29D5162900C02C43 /* ListDigimonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDigimonViewController.swift; sourceTree = "<group>"; };
 		3A78F98C29D516D600C02C43 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		3A78F98E29D51A4F00C02C43 /* DigimonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigimonTableViewCell.swift; sourceTree = "<group>"; };
+		3A78F98F29D51A4F00C02C43 /* DigimonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DigimonTableViewCell.xib; sourceTree = "<group>"; };
+		3A78F99229D51F0600C02C43 /* LevelDigimonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDigimonViewController.swift; sourceTree = "<group>"; };
 		76A18DE202FC0617267C35E7 /* Pods-ProjectDigimon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectDigimon.debug.xcconfig"; path = "Target Support Files/Pods-ProjectDigimon/Pods-ProjectDigimon.debug.xcconfig"; sourceTree = "<group>"; };
 		BC433D50AB0AD1700A39FEA6 /* Pods-ProjectDigimon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectDigimon.release.xcconfig"; path = "Target Support Files/Pods-ProjectDigimon/Pods-ProjectDigimon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,10 +87,13 @@
 				3A78F97429D5124E00C02C43 /* AppDelegate.swift */,
 				3A78F97629D5124E00C02C43 /* SceneDelegate.swift */,
 				3A78F97A29D5124E00C02C43 /* Main.storyboard */,
-				3A78F98C29D516D600C02C43 /* Request.swift */,
 				3A78F97829D5124E00C02C43 /* HomeViewController.swift */,
 				3A78F98A29D5162900C02C43 /* ListDigimonViewController.swift */,
+				3A78F99229D51F0600C02C43 /* LevelDigimonViewController.swift */,
 				3A78F98829D5135400C02C43 /* Digimon.swift */,
+				3A78F98C29D516D600C02C43 /* Request.swift */,
+				3A78F98E29D51A4F00C02C43 /* DigimonTableViewCell.swift */,
+				3A78F98F29D51A4F00C02C43 /* DigimonTableViewCell.xib */,
 				3A78F97D29D5125000C02C43 /* Assets.xcassets */,
 				3A78F97F29D5125000C02C43 /* LaunchScreen.storyboard */,
 				3A78F98229D5125000C02C43 /* Info.plist */,
@@ -163,6 +172,7 @@
 				3A78F98129D5125000C02C43 /* LaunchScreen.storyboard in Resources */,
 				3A78F97E29D5125000C02C43 /* Assets.xcassets in Resources */,
 				3A78F97C29D5124E00C02C43 /* Main.storyboard in Resources */,
+				3A78F99129D51A5000C02C43 /* DigimonTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A78F97929D5124E00C02C43 /* HomeViewController.swift in Sources */,
+				3A78F99029D51A4F00C02C43 /* DigimonTableViewCell.swift in Sources */,
+				3A78F99329D51F0600C02C43 /* LevelDigimonViewController.swift in Sources */,
 				3A78F98D29D516D600C02C43 /* Request.swift in Sources */,
 				3A78F97529D5124E00C02C43 /* AppDelegate.swift in Sources */,
 				3A78F97729D5124E00C02C43 /* SceneDelegate.swift in Sources */,
